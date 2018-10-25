@@ -3,7 +3,7 @@ import logo from '../img/bqueen.png'
 import '../css/Navbar.css'
 import firebaseApp from '../config/firebase' 
 import { BrowserRouter,Link,Route} from 'react-router-dom'
-import Home from '../components/Home' 
+import Order from '../components/Order' 
 import Breakfast from '../components/Breakfast' 
 import Dinner from '../components/Dinner'
 import { DropdownItem,DropdownMenu,DropdownToggle,Dropdown,Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink} from 'mdbreact';
@@ -53,15 +53,7 @@ render() {
                          
                       </NavItem>
 
-                           <NavItem>
-                              <NavLink to="#">
-                              <Link id="titule3" to='/'>
-                              Inicio
-                              </Link>
-                               </NavLink>
-                          </NavItem>
-
-                            <NavItem>
+                        <NavItem>
                             <Dropdown>
                                 <DropdownToggle nav caret>Menú</DropdownToggle>
                                 <DropdownMenu>
@@ -82,6 +74,18 @@ render() {
                                 </DropdownMenu>
                             </Dropdown>
                           </NavItem>
+                          <NavItem>
+                              <NavLink to="#">
+                              <Link id="titule3" to='/Pedido'>
+                              Pedidos
+                              </Link>
+                               </NavLink>
+                          </NavItem>
+
+
+
+
+
                     </NavbarNav>
                     <NavbarNav right id="tituleNav2">
                       
@@ -94,9 +98,10 @@ render() {
        
 
   
-       <Route exact path='/' component={Home} />
+       
        <Route path='/Breakfast' component={Breakfast} />
        <Route path='/Dinner' component={Dinner} />
+       <Route exact path='/Pedido' component={Order} />
 
 
 

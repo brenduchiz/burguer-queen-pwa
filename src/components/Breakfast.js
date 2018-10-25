@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
 import data from '../burgerqueen.json'
-//import Result from './result.js'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faPlusSquare,faTrashAlt,faPaperPlane} from '@fortawesome/free-solid-svg-icons'
 import {Card,Table, TableBody} from 'mdbreact';
 import '../css/Breakfast.css';
+
+import firebase from 'firebase';
+const firestore = firebase.firestore();
+const settings = {/* your settings... */ timestampsInSnapshots: true};
+firestore.settings(settings);
+const db = firebase.firestore();
+
+
+
 library.add(faPlusSquare,faTrashAlt,faPaperPlane)
 
 
@@ -15,7 +23,8 @@ class Breakfast extends Component {
     super()
     this.state = 
     { operations: [], 
-      total: 0 
+      total: 0 ,
+      user:""
       
     }
 
@@ -47,6 +56,30 @@ handleDelete = (id) =>{
       this.setState({ total: this.state.total - parseInt(e.price) })
     }
   })
+}
+
+handleOrder=()=>{
+  db.collection("order").add({
+    user: this.state.user,
+    operations: this.state.operations
+    
+})
+.then(function(docRef) {
+    console.log("Document written with ID: ", docRef.id);
+    console.log("created order");
+})
+.catch(function(error) {
+    console.error("Error adding document: ", error);
+});
+}
+
+handleChange=(e)=>{
+  const { value, name } = e.target;
+
+  this.setState({
+   [name]: value 
+
+ }) 
 }
 
 
@@ -82,7 +115,7 @@ ${item.price}
   <div id="input">
 
 <label for="exampleForm2">Nombre cliente</label>
-<input type="text" id="exampleForm2" className="form-control"/>
+<input name="user" value={this.state.user} type="user" onChange={this.handleChange}  id="exampleForm2" className="form-control"/>
 
 </div>  
  {this.state.operations.map((menu, i) => {
@@ -121,7 +154,7 @@ ${item.price}
         </tr>
         <tr>
           <td width="200" ></td>
-          <td><button type="button" className="btn btn-primary ">Enviar a cocina  <FontAwesomeIcon icon="paper-plane" /></button></td>
+          <td><button type="button" onClick={this.handleOrder} className="btn btn-primary ">Enviar a cocina  <FontAwesomeIcon icon="paper-plane" /></button></td>
           <td width="200" ></td>
          
         </tr>
@@ -129,6 +162,10 @@ ${item.price}
 </TableBody>
 </Table>
 </div>
+
+
+ 
+
 </div>
 </div>
 
