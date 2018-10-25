@@ -2,6 +2,7 @@
   "name": "burgerqueen",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://brenduchiz.github.io/burguer-queen-pwa/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.6",
     "@fortawesome/free-solid-svg-icons": "^5.4.1",
@@ -19,6 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
