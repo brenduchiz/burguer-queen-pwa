@@ -1,14 +1,13 @@
 {
-  "main.css": "/burguer-queen-pwa/static/css/main.79bea462.chunk.css",
-  "main.js": "/burguer-queen-pwa/static/js/main.69d6c73c.chunk.js",
-  "main.js.map": "/burguer-queen-pwa/static/js/main.69d6c73c.chunk.js.map",
-  "static/js/1.6105a37c.chunk.js": "/burguer-queen-pwa/static/js/1.6105a37c.chunk.js",
-  "static/js/1.6105a37c.chunk.js.map": "/burguer-queen-pwa/static/js/1.6105a37c.chunk.js.map",
+  "main.css": "/burguer-queen-pwa/static/css/main.ae5bf5ad.chunk.css",
+  "main.js": "/burguer-queen-pwa/static/js/main.5e74567b.chunk.js",
+  "main.js.map": "/burguer-queen-pwa/static/js/main.5e74567b.chunk.js.map",
+  "static/js/1.7eae6140.chunk.js": "/burguer-queen-pwa/static/js/1.7eae6140.chunk.js",
+  "static/js/1.7eae6140.chunk.js.map": "/burguer-queen-pwa/static/js/1.7eae6140.chunk.js.map",
   "runtime~main.js": "/burguer-queen-pwa/static/js/runtime~main.45dcdb46.js",
   "runtime~main.js.map": "/burguer-queen-pwa/static/js/runtime~main.45dcdb46.js.map",
-  "static/media/logo.svg": "/burguer-queen-pwa/static/media/logo.5d5d9eef.svg",
-  "static/css/main.79bea462.chunk.css.map": "/burguer-queen-pwa/static/css/main.79bea462.chunk.css.map",
+  "static/css/main.ae5bf5ad.chunk.css.map": "/burguer-queen-pwa/static/css/main.ae5bf5ad.chunk.css.map",
   "index.html": "/burguer-queen-pwa/index.html",
-  "precache-manifest.358f15e29c916f8dbff685cba2aeba90.js": "/burguer-queen-pwa/precache-manifest.358f15e29c916f8dbff685cba2aeba90.js",
+  "precache-manifest.5402c871e4aef0306c5a3e13d6027334.js": "/burguer-queen-pwa/precache-manifest.5402c871e4aef0306c5a3e13d6027334.js",
   "service-worker.js": "/burguer-queen-pwa/service-worker.js"
 }
