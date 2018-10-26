@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/burguer-queen-pwa/static/media/Roboto-Medium.4d9f3f9e.eot"
   },
   {
-    "revision": "965f54c707f035e6b534",
+    "revision": "bd175e2b6b64c29cedbb",
     "url": "/burguer-queen-pwa/static/css/main.d3967f71.chunk.css"
   },
   {
-    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
-    "url": "/burguer-queen-pwa/static/media/Roboto-Bold.e31fcf18.ttf"
+    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
+    "url": "/burguer-queen-pwa/static/media/Roboto-Medium.894a2ede.ttf"
   },
   {
     "revision": "b537ebff48c771af6024",
@@ -68,8 +68,8 @@ self.__precacheManifest = [
     "url": "/burguer-queen-pwa/static/media/Roboto-Regular.30799efa.eot"
   },
   {
-    "revision": "965f54c707f035e6b534",
-    "url": "/burguer-queen-pwa/static/js/main.965f54c7.chunk.js"
+    "revision": "bd175e2b6b64c29cedbb",
+    "url": "/burguer-queen-pwa/static/js/main.bd175e2b.chunk.js"
   },
   {
     "revision": "ecdd509cadbf1ea78b8d2e31ec52328c",
@@ -100,12 +100,12 @@ self.__precacheManifest = [
     "url": "/burguer-queen-pwa/static/media/Roboto-Thin.7500519d.woff"
   },
   {
-    "revision": "3b813c2ae0d04909a33a18d792912ee7",
-    "url": "/burguer-queen-pwa/static/media/Roboto-Light.3b813c2a.woff"
-  },
-  {
     "revision": "ba3dcd8903e3d0af5de7792777f8ae0d",
     "url": "/burguer-queen-pwa/static/media/Roboto-Regular.ba3dcd89.woff"
+  },
+  {
+    "revision": "3b813c2ae0d04909a33a18d792912ee7",
+    "url": "/burguer-queen-pwa/static/media/Roboto-Light.3b813c2a.woff"
   },
   {
     "revision": "fc78759e93a6cac50458610e3d9d63a0",
@@ -120,23 +120,23 @@ self.__precacheManifest = [
     "url": "/burguer-queen-pwa/static/media/Roboto-Light.46e48ce0.ttf"
   },
   {
-    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
-    "url": "/burguer-queen-pwa/static/media/Roboto-Medium.894a2ede.ttf"
+    "revision": "df7b648ce5356ea1ebce435b3459fd60",
+    "url": "/burguer-queen-pwa/static/media/Roboto-Regular.df7b648c.ttf"
   },
   {
     "revision": "94998475f6aea65f558494802416c1cf",
     "url": "/burguer-queen-pwa/static/media/Roboto-Thin.94998475.ttf"
   },
   {
-    "revision": "df7b648ce5356ea1ebce435b3459fd60",
-    "url": "/burguer-queen-pwa/static/media/Roboto-Regular.df7b648c.ttf"
+    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
+    "url": "/burguer-queen-pwa/static/media/Roboto-Bold.e31fcf18.ttf"
   },
   {
     "revision": "b537ebff48c771af6024",
     "url": "/burguer-queen-pwa/static/css/1.504a5f67.chunk.css"
   },
   {
-    "revision": "cc824232162bab2467b2a0d020fb2186",
+    "revision": "336ad7eb8d74ff0996da8939b04aad72",
     "url": "/burguer-queen-pwa/index.html"
   }
 ];
