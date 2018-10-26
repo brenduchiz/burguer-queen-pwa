@@ -53,14 +53,10 @@ restorepassword() {
 
   }
 
-
-
-
-
   render() {
     return (
       <Container>
-        <a href="/#" className="brown-text" onClick={this.toggle}>¿Olvidaste tu Contraseña?</a>
+        <a  className="brown-text" onClick={this.toggle}>¿Olvidaste tu Contraseña?</a>
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
           <ModalHeader toggle={this.toggle}>
           
@@ -70,7 +66,7 @@ restorepassword() {
           <ModalBody>
           <div className="grey-text">
           Se enviara un correo para el cambio de contraseña
-          <Input value={this.state.emailRestor} onChange={this.handleChange} name="emailRestor"  label="Correo" icon="envelope" group type="email" validate error="wrong" success="right" id="restor"/>
+          <Input value={this.state.emailRestor} onChange={this.handleChange} name="emailRestor"  label="Correo"  group type="email" validate error="wrong" success="right" id="restor"/>
           </div>
           </ModalBody>
           <ModalFooter>

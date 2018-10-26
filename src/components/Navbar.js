@@ -82,10 +82,6 @@ render() {
                                </NavLink>
                           </NavItem>
 
-
-
-
-
                     </NavbarNav>
                     <NavbarNav right id="tituleNav2">
                       
