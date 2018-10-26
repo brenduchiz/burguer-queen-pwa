@@ -53,7 +53,7 @@ class Dinner extends Component {
     render(){
     return(
     <div className="row">
-     <div className="col-6 col-sm-12 col-md-8">   
+     <div className="col-5 col-sm-4 col-md-6">   
    {data.Almuerzo.map((item,i) => (
     
     
@@ -74,7 +74,7 @@ ${item.price}
 
 </div>  
 
-<div id="card2" className="col-6 col-sm-6 col-md-4">
+<div id="card2" className="col-7 col-sm-8 col-md-6">
 <div id="input">
 
 <label for="exampleForm2">Nombre cliente</label>
