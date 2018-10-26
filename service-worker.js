@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/burguer-queen-pwa/precache-manifest.378c8e21135bf0c5a8be1a669892ad96.js"
+  "/burguer-queen-pwa/precache-manifest.8ffd446b2d694831a95657e13773ba52.js"
 );
 
 workbox.clientsClaim();
