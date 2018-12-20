@@ -1,6 +1,12 @@
 
 # Burger Queen
 
+
+
+
+Usuario:admi-mesero@burger.com
+Contraseña: 1234567890
+
 ## Preámbulo
 
 Nos acaban de enviar un correo con una solicitud para un nuevo proyecto. Hay un
